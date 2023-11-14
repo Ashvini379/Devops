@@ -1,10 +1,17 @@
-Create and Build a Sample Java Project using Maven - Assignment
+ServletCRUD
+Java CRUD web application created using maven-archetype-webapp to perform get,put,post,delete operations.
 
-Clone reposirtory using url
+Dependancies
+git
+maven
+tomcat
+Eclipse Project setup
+Use git clone to pull project into workspace directory
+git clone https://github.com/DEV3L/mvn-hello-world-web-app.git
+Use maven to resolve Eclipse dependencies
+mvn eclipse:eclipse
+Import 'ServletCRUD' as existing project into Eclipse
+Use maven to run integration tests and install
 Install MySqlWorkbench and create user database using script available in repository.
-Update MySql userb=name and password in below file. image image
-Build and Run java project using Maven commands
-clean test
-clean package
-clean install
-tomcat:run
+Update MySql userb=name and password in below file.
+mvn clean install
