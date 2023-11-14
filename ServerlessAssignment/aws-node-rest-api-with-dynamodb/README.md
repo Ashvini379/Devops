@@ -20,10 +20,12 @@ This service has a separate directory for all the todo operations. For each oper
 
 The idea behind the `todos` directory is that in case you want to create a service containing multiple resources e.g. users, notes, comments you could do so in the same service. While this is certainly possible you might consider creating a separate service for each resource. It depends on the use-case and your preference.
 
+There is pom.xml file using which npm dependecnies are installed like npm install. 
+
 ## Setup
 
 ```bash
-npm install
+mvn clean install
 ```
 
 ## Deploy
